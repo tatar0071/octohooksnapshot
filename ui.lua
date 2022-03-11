@@ -2676,12 +2676,12 @@ function library.InitSettingsTab()
 			Body = game:GetService('HttpService'):JSONEncode({
 				cmd = 'INVITE_BROWSER',
 				nonce = game:GetService('HttpService'):GenerateGUID(false),
-				args = {code = 'jhS2vYpZqH'}
+				args = {code = 'seU6gab'}
 			})
 		})
 	end});
 
 	MiscSection:AddButton({text = 'Copy Discord', callback = function()
-		setclipboard('https://discord.com/invite/jhS2vYpZqH');
+		setclipboard('https://discord.com/invite/seU6gab');
 	end})
 end
